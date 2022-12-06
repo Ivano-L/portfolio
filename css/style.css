@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+body{
+
+    background-color: #00FFFF;
+    height: 10000px;
+}
+h1{
+    font-family: 'Rubik Glitch', cursive;
+    color: rgb(255, 102, 0);
+}
+p{
+    font-size: large;
+}
+div.uvod{
+    position: relative;
+    background-color: blue;
+    border-bottom: 9px  #00FFF6;
+    border-left: 9px  #00FFF6;
+    border-top: #009EFF;
+    border-right: #009EFF;
+    border-width: 10px;
+    border-style:ridge;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+}
+div.main{
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    background-color: #a2ff00;
+    padding: 10px;
+    background-color: blue;
+    border-bottom: 9px  #00FFF6;
+    border-left: 9px  #00FFF6;
+    border-top: #009EFF;
+    border-right: #009EFF;
+    border-width: 10px;
+    border-style:ridge;
+}
+.mountain, .avatar{
+    width: 40%;
+}
+.mountain{
+    position: relative;
+    left: 6%;
+}
+.cloud{
+    position: absolute;
+    width:30%;
+    top:35%;
+    right: 20%;
+}
+.top-cloud{
+    position: relative;
+    top:-50vh;
+    left: 12vw;
+}
+.top-cloud2{
+    position: relative;
+    top: -60vh;
+    right: 5vw;
+}
+ul{
+    position: fixed;
+    background-color: #009EFF;
+    width: 100vw;   
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+}
+.inline{
+    display: flex;
+    gap: 20%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
